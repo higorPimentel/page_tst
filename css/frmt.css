@@ -98,6 +98,15 @@ p{
     transition: 0.5s;
 }
 
+#primary_list_foot{
+  margin-left: 100px;
+
+}
+
+#cx_nome{
+  border-bottom:solid 2px #3b6caa; 
+}
+
 #frm_registro{
 	display: flex;
 	flex-direction: row;

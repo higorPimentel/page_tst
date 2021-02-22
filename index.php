@@ -55,31 +55,31 @@
                     <div class="row">	
                             <div class="grupo_cxs col-3" id="grupo_cx_id">
                                 <label class='lb_text'>Data de Nascimento</label>
-                                <input class="cx_text" type="date" id="cx_nome" >											
+                                <input class="cx_text" type="date" id="cx_dt_nascim" >											
                             </div>	
 
                             <div class="grupo_cxs col-3" id="grupo_cx_id">
                                 <label class='lb_text'>Contato</label>
-                                <input class="cx_text" type="text" id="cx_nome" >											
+                                <input class="cx_text" type="text" id="cx_contato" >											
                             </div>	
                     </div>
 
                     <div class="row">	
                             <div class="grupo_cxs col-3" id="grupo_cx_id">
                                 <label class='lb_text'>Celular</label>
-                                <input class="cx_text" type="text" id="cx_nome" >											
+                                <input class="cx_text" type="text" id="cx_celular" >											
                             </div>	
 
                             <div class="grupo_cxs col-3" id="grupo_cx_id">
                                 <label class='lb_text'>Email</label>
-                                <input class="cx_text" type="text" id="cx_nome" >											
+                                <input class="cx_text" type="text" id="cx_email" >											
                             </div>	
                     </div>
 
                     <div class="row">	
                             <div class="grupo_cxs col-3" id="grupo_cx_id">
                                 <label class='lb_text'>Currículo (* DOC / DOCX / PDF)</label>
-                                <input class="cx_text" type="file" id="cx_nome" >											
+                                <input class="cx_text" type="file" id="cx_curriculo" >											
                             </div>	
                             
                     </div>
@@ -98,8 +98,8 @@
         <footer id='foot'>
 
                
-            <div class='lista_foot'>
-                   <p class='tit_foot'>Saiba Mais</p> 
+            <div id='primary_list_foot' class='lista_foot'>
+                   <p  class='tit_foot'>Saiba Mais</p> 
                      <ul>
                         <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Produtos</a></li>
                         <li><a href='https://www.ibm.com/br-pt/products/trials?lnk=fdi_brpt'>Testes de software</a></li>
@@ -154,7 +154,8 @@
 </div>
 
 
-
+    <script src='js/jquery-3.4.1.min.js'></script>
+    <script src='js/frmt.js'></script>
 
 
 </body>
