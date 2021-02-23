@@ -14,16 +14,16 @@
 <header id='header'>
     
         <div id='container-img'>
-            <img src="img/logo.jpg" alt="">
+            <img id='img_logo' src="img/logo.jpg" alt="">
         </div>
 
 
         <div id='lista_opcoes'>
-            <ul>
-                <li id='primary_item'>Produtos<div class='simbolo_seta'>&rsaquo;</div></li>
-                <li>Serviços e consultoria<div class='simbolo_seta'>&rsaquo;</div></li>
-                <li>Tire suas dúvidas<div class='simbolo_seta'>&rsaquo;</div></li>
-                <li>Explore mais<div class='simbolo_seta'>&rsaquo;</div></li>
+            <ul id='list_opc'>
+                <li class='cls_list_opc' id='produtos' onmousemove='exibe_sub_menu()' onmouseout='remove_sub_menu()'>Produtos<div class='simbolo_seta'>&rsaquo;</div></li>
+                <li class='cls_list_opc' id='servicos' onmousemove='exibe_sub_menu()' onmouseout='remove_sub_menu()'>Serviços e consultoria<div class='simbolo_seta'>&rsaquo;</div></li>
+                <li class='cls_list_opc' id='suporte' onmousemove='exibe_sub_menu()' onmouseout='remove_sub_menu()'>Tire suas dúvidas<div class='simbolo_seta'>&rsaquo;</div></li>
+                <li class='cls_list_opc' id='parceiros' onmousemove='exibe_sub_menu()' onmouseout='remove_sub_menu()'>Explore mais<div class='simbolo_seta'>&rsaquo;</div></li>
             </ul>
 
         </div>
@@ -34,26 +34,83 @@
 
 <div id='container_conteudo'>
 
-    <div id='containter_submenu'>
+    <div id='containter_submenu' onmouseout='desabilita_sub_menu()'>
 
-    <div class='lista_sub_menu'>
-                   <p  class='tit_sub_menu'>Principais produtos</p> 
-                     <ul>
-                        <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Indústrias</a></li>
-                        <li><a href=''>Inteligência Artificial</a></li>
-                        <li><a href=''>Automation</a></li>
-                        <li><a href=''>Blockchain</a></li>
-                        <li><a href=''>Busines operations</a></li>
-                        <li><a href=''>Cloud computing</a></li>
-                        <li><a href=''>Data & Analytics</a></li>
-                        <li><a href=''>Infraestrutura de TI</a></li>
-                        <li><a href=''>Security</a></li>
-                        <li><a href=''>Supply chain</a></li>
-                        <li><a href=''>Financiamento</a></li>
-                        <li><a href=''>Produtos</a></li>
+            <div class='lista_sub_menu' id='submenu_produtos'>
+                           <p  class='tit_sub_menu'>Principais produtos</p> 
+                             <ul>
+                                <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Indústrias</a></li>
+                                <li><a href=''>Inteligência Artificial</a></li>
+                                <li><a href=''>Automation</a></li>
+                                <li><a href=''>Blockchain</a></li>
+                                <li><a href=''>Busines operations</a></li>
+                                <li><a href=''>Cloud computing</a></li>
+                                <li><a href=''>Data & Analytics</a></li>
+                                <li><a href=''>Infraestrutura de TI</a></li>
+                                <li><a href=''>Security</a></li>
+                                <li><a href=''>Supply chain</a></li>
+                                <li><a href=''>Financiamento</a></li>
+                                <li><a href=''>Produtos</a></li>
 
-                     </ul>
+                             </ul>
             </div> 
+
+             <div class='lista_sub_menu' id='submenu_servicos'>
+                           <p  class='tit_sub_menu'>Serviços de processo de negócios</p> 
+                             <ul>
+                                <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Design & business strategy</a></li>
+                                <li><a href=''>Serviços multicloud</a></li>
+                                <li><a href=''>Talent & transformation</a></li>
+                                <li><a href=''>Serviços de aplicações</a></li>
+                                <li><a href=''>Serviços de segurança</a></li>
+                                <li><a href=''>Serviços para suporte técnico</a></li>
+                                <li><a href=''>Financiamento para serviços e consultoria</a></li>
+                                <li><a href=''>Veja mais serviços</a></li>
+                               <li class='frmt_vazio'>.</li>
+                               <li class='frmt_vazio'>.</li>
+                               <li class='frmt_vazio'>.</li>
+                               <li class='frmt_vazio'>.</li>
+
+                             </ul>
+            </div> 
+
+
+             <div class='lista_sub_menu' id='submenu_suporte'>
+                           <p  class='tit_sub_menu'>Suporte</p> 
+                             <ul>
+                                <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Documentation</a></li>
+                                <li><a href=''>Educação para developers</a></li>
+                                <li><a href=''>Treinamento</a></li>
+                                <li><a href=''>Recursos</a></li>
+                                <li><a href=''>O que é</a></li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                             </ul>
+            </div> 
+
+             <div class='lista_sub_menu' id='submenu_parceiros'>
+                           <p  class='tit_sub_menu'>Parceiros</p> 
+                             <ul>
+                                <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Investigação IBM</a></li>
+                                <li><a href=''>Sobre a IBM</a></li>
+                                <li><a href=''>COVID-19</a></li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                                   <li class='frmt_vazio'>.</li>
+                             </ul>
+            </div> 
+
 
     
     </div>

@@ -6,6 +6,35 @@
  bt_cad.addEventListener('click',cadastra_cv,true)
 
 
+function exibe_sub_menu (){
+	itm  = event.srcElement.id
+
+	$(".lista_sub_menu").css('display','none')
+
+	$(`#submenu_${itm}`).css('display','inline-block')
+	$(`#submenu_${itm}`).css('transition','2.5s')
+
+	$("#containter_submenu").css('display','inline-block')
+
+}
+
+function remove_sub_menu() {
+	
+}
+
+function inibe_sub_menu() {
+
+
+}
+
+
+function desabilita_sub_menu() {
+	$('#containter_submenu').css('display','none')
+	
+}
+
+
+
  function aplica_foco(event){
  	itm = event.srcElement.id
  	$(`#${itm}`).css('borderBottom','solid 2px #3b6caa')

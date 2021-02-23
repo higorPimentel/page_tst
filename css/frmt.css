@@ -41,6 +41,7 @@ p{
     padding: 0px;
     display: inline;
     margin-top: -10px;
+
 }
 
 #lista_opcoes ul{
@@ -165,8 +166,9 @@ p{
 }
 
 .lista_sub_menu {
-  display: inline-block;
- margin: 30px;
+  display: none;
+  margin: 30px;
+  margin-left: 140px;
 
 
 }
