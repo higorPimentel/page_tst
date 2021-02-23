@@ -164,9 +164,52 @@ p{
     color:#828282;
 }
 
+.lista_sub_menu {
+  display: inline-block;
+ margin: 30px;
+
+
+}
+
+.lista_sub_menu a{
+  text-decoration: none;
+  color:#363636;
+
+}
+
+.lista_sub_menu li {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 15px;
+  color:#CFCFCF;
+
+}
+
+.lista_sub_menu ul :hover{
+  text-decoration: underline;
+  color:#828282;
+  transition: 0.5s;
+}
+
+.tit_sub_menu{
+   color:#3b6caa;
+}
+
 #primary_list_foot{
     display: inline-block;
  
+}
+
+#container_msg{
+  position: fixed;
+  bottom:10px;
+  right: 20px;
+  padding: 5px 30px;
+  background-color:#EE6363;
+  color:white;
+  font-size: 15px;
+  border:solid 1px #4F4F4F;
+  display:none;
 }
 
 #frm_registro h2{
@@ -194,6 +237,20 @@ p{
 
 }
 
+
+#cmb_sexo{
+  border:solid 1px  #B5B5B5;
+}
+
+#containter_submenu{
+  position: absolute;
+  top: 58px;
+  left: 0px;
+  width:100%;
+  height: 500px;
+  background-color: #CFCFCF;
+  z-index: 2;
+}
 
 
 .lb_text {

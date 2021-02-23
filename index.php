@@ -34,6 +34,29 @@
 
 <div id='container_conteudo'>
 
+    <div id='containter_submenu'>
+
+    <div class='lista_sub_menu'>
+                   <p  class='tit_sub_menu'>Principais produtos</p> 
+                     <ul>
+                        <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Indústrias</a></li>
+                        <li><a href=''>Inteligência Artificial</a></li>
+                        <li><a href=''>Automation</a></li>
+                        <li><a href=''>Blockchain</a></li>
+                        <li><a href=''>Busines operations</a></li>
+                        <li><a href=''>Cloud computing</a></li>
+                        <li><a href=''>Data & Analytics</a></li>
+                        <li><a href=''>Infraestrutura de TI</a></li>
+                        <li><a href=''>Security</a></li>
+                        <li><a href=''>Supply chain</a></li>
+                        <li><a href=''>Financiamento</a></li>
+                        <li><a href=''>Produtos</a></li>
+
+                     </ul>
+            </div> 
+
+    
+    </div>
 
     <h1> Portal do Candidato</h1>
 
@@ -59,8 +82,11 @@
                             </div>	
 
                             <div class="grupo_cxs col-3" id="grupo_cx_id">
-                                <label class='lb_text'>Contato</label>
-                                <input class="cx_text" type="text" id="cx_contato" >											
+                                <label class='lb_text'>Sexo</label>
+                                   <select class="cx_text" id='cmb_sexo'>
+                                      <option value="1">Masculino</option>
+                                      <option value="2">Feminino</option>		
+                                   </select>    									
                             </div>	
                     </div>
 
@@ -149,6 +175,8 @@
             </div> 
 
         </footer>
+
+        <div id='container_msg'>...</div>
 
 
 </div>
