@@ -1,0 +1,21 @@
+create database projeto_ibm;
+ 
+ CREATE TABLE dados_cliente (
+  id_cliente int(11) NOT NULL AUTO_INCREMENT,
+  cx_nome char(100) DEFAULT NULL,
+  dt_nascimento char(10) DEFAULT NULL,
+  cmb_sexo char(1) DEFAULT NULL,
+  cx_celular char(14) DEFAULT NULL,
+  cx_email char(100) DEFAULT NULL,
+  PRIMARY KEY (id_cliente)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+select * from dados_cliente;
+select * from dados_acesso;
+
+ CREATE TABLE dados_acesso (
+  id_cliente int(11) NOT NULL AUTO_INCREMENT,
+  usuario char(100) DEFAULT NULL,
+  senha char(10) DEFAULT NULL,
+  PRIMARY KEY (id_cliente)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

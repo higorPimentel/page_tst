@@ -23,19 +23,24 @@ p{
 }
 
 
-#container-img{
- 
-    display: inline-block;
-    
+.container-img{ 
+    display: inline-block;    
 }
 
-#container-img img{
+.container-img img{
     width:60px;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-left: 10px;
 }
 
+#img_logo1{ 
+  width:40px;
+}
+
+#img_logo2{ 
+  width:40px;
+}
 #lista_opcoes {
     position: absolute;
     padding: 0px;
@@ -97,6 +102,24 @@ p{
     border:solid 2px #3b6caa;
     color:black;
     transition: 0.5s;
+}
+
+#btn_cancela_envio{
+  outline: none;
+  border:solid 2px white;
+  margin-top: 30px;
+  padding: 5px 30px;
+  background-color:#3b6caa;
+  color:white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#btn_cancela_envio:hover{
+  background-color: rgba(0,0,0,0);
+  border:solid 2px #3b6caa;
+  color:black;
+  transition: 0.5s;
 }
 
 #primary_list_foot{
@@ -194,7 +217,9 @@ p{
 }
 
 .tit_sub_menu{
+  font-weight: bold;
    color:#3b6caa;
+   font-size: 18px;
 }
 
 #primary_list_foot{
@@ -252,6 +277,7 @@ p{
   height: 500px;
   background-color: #CFCFCF;
   z-index: 2;
+  display: none;
 }
 
 
@@ -324,6 +350,35 @@ width:100%;
   max-width: 90%;
 
 }
+
+#page_confirmacao {
+  top:0;
+  left:0;
+  position:fixed;
+  width:100%;
+  height: 100%;
+  background-color:rgba(0,0,0,0.5);
+display: none;
+}
+
+#btn_fechar{
+  float: right;
+  display: inline-block;
+  padding: 0px 20px;
+  background-color: rgb(53, 51, 51);
+  border:solid 2px rgb(53, 51, 51);
+  color:white;
+  cursor: pointer;
+}
+
+#btn_fechar:hover{
+  background-color: rgba(0,0,0,0);
+  color:rgb(53, 51, 51);
+  transition: 0.5s;
+ 
+
+}
+
 
 @media(max-width: 750px){
 

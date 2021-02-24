@@ -7,23 +7,23 @@
 
           
      <link  rel='stylesheet' href='css/frmt.css'>    
-    <title>Document</title>
+    <title>Portal do Candidato - Brasil | IBM</title>
 </head>
 <body>
     
 <header id='header'>
     
-        <div id='container-img'>
+        <div class='container-img'>
             <img id='img_logo' src="img/logo.jpg" alt="">
         </div>
 
 
         <div id='lista_opcoes'>
             <ul id='list_opc'>
-                <li class='cls_list_opc' id='produtos' onmousemove='exibe_sub_menu()' onmouseout='remove_sub_menu()'>Produtos<div class='simbolo_seta'>&rsaquo;</div></li>
-                <li class='cls_list_opc' id='servicos' onmousemove='exibe_sub_menu()' onmouseout='remove_sub_menu()'>Serviços e consultoria<div class='simbolo_seta'>&rsaquo;</div></li>
-                <li class='cls_list_opc' id='suporte' onmousemove='exibe_sub_menu()' onmouseout='remove_sub_menu()'>Tire suas dúvidas<div class='simbolo_seta'>&rsaquo;</div></li>
-                <li class='cls_list_opc' id='parceiros' onmousemove='exibe_sub_menu()' onmouseout='remove_sub_menu()'>Explore mais<div class='simbolo_seta'>&rsaquo;</div></li>
+                <li class='cls_list_opc' id='produtos' >Produtos<div class='simbolo_seta'>&rsaquo;</div></li>
+                <li class='cls_list_opc' id='servicos' >Serviços e consultoria<div class='simbolo_seta'>&rsaquo;</div></li>
+                <li class='cls_list_opc' id='suporte'>Tire suas dúvidas<div class='simbolo_seta'>&rsaquo;</div></li>
+                <li class='cls_list_opc' id='parceiros'>Explore mais<div class='simbolo_seta'>&rsaquo;</div></li>
             </ul>
 
         </div>
@@ -34,23 +34,23 @@
 
 <div id='container_conteudo'>
 
-    <div id='containter_submenu' onmouseout='desabilita_sub_menu()'>
+    <div id='containter_submenu'>
 
             <div class='lista_sub_menu' id='submenu_produtos'>
                            <p  class='tit_sub_menu'>Principais produtos</p> 
                              <ul>
-                                <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Indústrias</a></li>
-                                <li><a href=''>Inteligência Artificial</a></li>
-                                <li><a href=''>Automation</a></li>
-                                <li><a href=''>Blockchain</a></li>
-                                <li><a href=''>Busines operations</a></li>
-                                <li><a href=''>Cloud computing</a></li>
-                                <li><a href=''>Data & Analytics</a></li>
-                                <li><a href=''>Infraestrutura de TI</a></li>
-                                <li><a href=''>Security</a></li>
-                                <li><a href=''>Supply chain</a></li>
-                                <li><a href=''>Financiamento</a></li>
-                                <li><a href=''>Produtos</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/industries?lnk=hpmps_buin_brpt&lnk2=link'>Indústrias</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/artificial-intelligence?lnk=hpmps_buai_brpt&lnk2=link'>Inteligência Artificial</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/automation?lnk=hpmps_buau_brpt&lnk2=link'>Automation</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/blockchain?lnk=hpmps_bubc_brpt&lnk2=link'>Blockchain</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/business-operations?lnk=hpmps_buop_brpt&lnk2=link'>Busines operations</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/cloud?lnk=hpmps_bucl_brpt&lnk2=link'>Cloud computing</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/analytics?lnk=hpmps_buda_brpt&lnk2=link'>Data & Analytics</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/it-infrastructure?lnk=hpmps_buit_brpt&lnk2=link'>Infraestrutura de TI</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/security?lnk=hpmps_buse_brpt&lnk2=link'>Security</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/supply-chain?lnk=hpmps_busc_brpt&lnk2=link'>Supply chain</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/financing?lnk=hpmps_bufi_brpt&lnk2=link'>Financiamento</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/products?lnk=hpmps_buall_brpt&lnk2=link'>Produtos</a></li>
 
                              </ul>
             </div> 
@@ -58,14 +58,14 @@
              <div class='lista_sub_menu' id='submenu_servicos'>
                            <p  class='tit_sub_menu'>Serviços de processo de negócios</p> 
                              <ul>
-                                <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Design & business strategy</a></li>
-                                <li><a href=''>Serviços multicloud</a></li>
-                                <li><a href=''>Talent & transformation</a></li>
-                                <li><a href=''>Serviços de aplicações</a></li>
-                                <li><a href=''>Serviços de segurança</a></li>
-                                <li><a href=''>Serviços para suporte técnico</a></li>
-                                <li><a href=''>Financiamento para serviços e consultoria</a></li>
-                                <li><a href=''>Veja mais serviços</a></li>
+                                <li><a href='https://www.ibm.com/services/ibmix?lnk=hpmsc_budbs_brpt&lnk2=link'>Design & business strategy</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/services/cloud?lnk=hpmsc_buhs?lnk=hpmsc_buhs_brpt'>Serviços multicloud</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/talent-management?lnk=hpmsc_buta_brpt&lnk2=link'>Talent & transformation</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/services/applications?lnk=hpmsc_buas_brpt&lnk2=link'>Serviços de aplicações</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/security/services?lnk=hpmsc_buse_brpt&lnk2=link'>Serviços de segurança</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/services/technology-support?lnk=hpmsc_busv_brpt&lnk2=link'>Serviços para suporte técnico</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/financing/solutions/it-services-financing?lnk=hpmsc_bufi_brpt&lnk2=link'>Financiamento para serviços e consultoria</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/services?lnk=hpmsc_buall_brpt&lnk2=link'>Veja mais serviços</a></li>
                                <li class='frmt_vazio'>.</li>
                                <li class='frmt_vazio'>.</li>
                                <li class='frmt_vazio'>.</li>
@@ -78,11 +78,11 @@
              <div class='lista_sub_menu' id='submenu_suporte'>
                            <p  class='tit_sub_menu'>Suporte</p> 
                              <ul>
-                                <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Documentation</a></li>
-                                <li><a href=''>Educação para developers</a></li>
-                                <li><a href=''>Treinamento</a></li>
-                                <li><a href=''>Recursos</a></li>
-                                <li><a href=''>O que é</a></li>
+                                <li><a href='https://www.ibm.com/support/knowledgecenter/?lnk=hpmls_budc_brpt&lnk2=link'>Documentation</a></li>
+                                <li><a href='https://developer.ibm.com/br/?lnk=hpmls_bude_brpt&lnk2=link'>Educação para developers</a></li>
+                                <li><a href='https://www.ibm.com/training/?lnk=hpmls_butr_brpt&lnk2=link'>Treinamento</a></li>
+                                <li><a href='https://www.ibm.com/blogs/?lnk=hpmls_bure_brpt&lnk2=link'>Recursos</a></li>
+                                <li><a href='https://www.ibm.com/cloud/learn?lnk=hpmls_buwi_brpt&lnk2=link'>O que é</a></li>
                                    <li class='frmt_vazio'>.</li>
                                    <li class='frmt_vazio'>.</li>
                                    <li class='frmt_vazio'>.</li>
@@ -96,9 +96,9 @@
              <div class='lista_sub_menu' id='submenu_parceiros'>
                            <p  class='tit_sub_menu'>Parceiros</p> 
                              <ul>
-                                <li><a href='https://www.ibm.com/br-pt/products/?lnk=fdi'>Investigação IBM</a></li>
-                                <li><a href=''>Sobre a IBM</a></li>
-                                <li><a href=''>COVID-19</a></li>
+                                <li><a href='https://www.research.ibm.com/?lnk=hpmex_bure_brpt&lnk2=link'>Investigação IBM</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/about?lnk=hpmex_buab_brpt&lnk2=link'>Sobre a IBM</a></li>
+                                <li><a href='https://www.ibm.com/br-pt/impact/covid-19?lnk=hpmex_buco_brpt&lnk2=link'>COVID-19</a></li>
                                    <li class='frmt_vazio'>.</li>
                                    <li class='frmt_vazio'>.</li>
                                    <li class='frmt_vazio'>.</li>
@@ -121,7 +121,7 @@
             selecione o seu currículo para prosseguir.
         </p>
         <p>
-        Utilize seu cadastro do Linkedin para imprtar seus dados e vincular em um novo cadastro, ou acesse a página inicial.
+        Utilize seu cadastro do Linkedin para importar seus dados e vincular em um novo cadastro, ou acesse a página inicial.
         </p>
         <form id="frm_registro">
                     
@@ -141,8 +141,8 @@
                             <div class="grupo_cxs col-3" id="grupo_cx_id">
                                 <label class='lb_text'>Sexo</label>
                                    <select class="cx_text" id='cmb_sexo'>
-                                      <option value="1">Masculino</option>
-                                      <option value="2">Feminino</option>		
+                                      <option value="m">Masculino</option>
+                                      <option value="f">Feminino</option>		
                                    </select>    									
                             </div>	
                     </div>
@@ -176,6 +176,10 @@
 
 
         </form>
+
+
+
+
 
 
         <footer id='foot'>
@@ -237,6 +241,61 @@
 
 
 </div>
+
+
+
+        <div id='page_confirmacao'>
+            <form id="frm_registro">
+                
+          
+            
+            <div class="row">	
+                    <div id ='btn_fechar' onclick='fechar_confirmacao()'>&#10008;</div>
+                        <div class="grupo_cxs col-5" id="grupo_cx_id">
+                            <div class='container-img'>
+                                <img id='img_logo' src="img/logo.jpg" alt="">
+                            </div>
+
+                            <div class='container-img'>
+                                <img id='img_logo1' src="img/simbolo_transferencia2.png" alt="">
+                            </div>
+
+                            <div class='container-img'>
+                                <img id='img_logo2' src="img/simbolo_linkedin2.png" alt="">
+                            </div>
+                           										
+                        </div>	
+                </div>
+
+                <p>Utilize seu cadastro do Linkedin para importar seus dados , ou crie um novo cadastro aqui</p>
+
+                <div class="row">	
+                        <div class="grupo_cxs col-5" id="grupo_cx_id">
+                            <label class='lb_text'>Login de acesso / Email</label>
+                            <input class="cx_text" type="text" id="cx_nome" autofocus>											
+                        </div>	
+                </div>
+
+                <div class="row">	
+                        <div class="grupo_cxs col-5" id="grupo_cx_id">
+                            <label class='lb_text'>Senha</label>
+                            <input class="cx_text" type="text" id="cx_nome" autofocus>											
+                        </div>	
+                </div>
+
+                <div class="row">	
+                            <div class="grupo_cxs col-2" id="grupo_cx_id">
+                                   <input  type="button" id="btn_cadastra" value='Confirmar Envio' >											
+                            </div>	
+
+                            <div class="grupo_cxs col-2" id="grupo_cx_id">
+                                   <input  type="button" id="btn_cancela_envio" value='Cancelar  ' onclick='cancela_envio()'>											
+                            </div>	
+                            
+                    </div>
+    
+        </form>
+    </div>
 
 
     <script src='js/jquery-3.4.1.min.js'></script>
